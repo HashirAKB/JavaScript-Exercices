@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>js exrc one</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    body { padding: 30px; }
+  </style>
+</head>
+<body>
+
+  <div class="jumbotron text-center">
+    <h1>Hello I'm Hashir!</h1>
+
+    <button type="button" class="btn btn-primary" onclick="changeText()">
+      Want to know what I'm doing..?
+    </button>
+    <br>
+    <br>
+    <a href="./js-exercise2.html">Next Exercise</a>
+  </div>
+
+
+  <script>
+    const header = document.querySelector('h1');
+
+    function changeText() {
+      header.innerText = 'Yeee! Im learning JavaScript';
+    }
+  </script>
+</body>
+</html>
